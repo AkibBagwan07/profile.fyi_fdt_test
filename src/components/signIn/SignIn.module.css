@@ -1,0 +1,26 @@
+.emptyCartQuote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.cartLogo{
+    width: 100px;
+    height: 100px;
+    margin-right: 24px;
+}
+
+.quoteAndExplore{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.exploreProductsBtn{
+    color: green;
+    cursor: pointer;
+}
