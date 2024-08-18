@@ -52,7 +52,7 @@ const Cart = ({setCartItems, cartItems }) => {
                     <div className={styles.cardWrapper}>
                       <img className={styles.image} src={product.image} alt="" />
                       <div className={styles.titleAndDeliveryDate}>
-                        <p className={styles.title}>{product.title}</p>
+                        <p className={styles.title}>{product.name}</p>
                         <p>Delivery by {day} {month} {futureDate} | <span style={{ color: "yellowgreen" }}>Free</span></p>
                         <p className={styles.price}>$ {product.price}</p>
                         <div className={styles.quantityAndRemoveBtn}>
